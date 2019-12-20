@@ -33,16 +33,6 @@
 
 > Factorial is the multiplication of all positive integer numbers less than itself.
 
-## Array Sorting Algorithms
-
-> Time complexity of array sorting algorithms
-
-|                |       Best      |      Average     |       Worst      |
-|----------------|:---------------:|:----------------:|:----------------:|
-| Bubble Sort    |       O(n)      | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Selection Sort | O(n<sup>2</sup> | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Insertion Sort |       O(n)      | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
-
 ## References
 
 * [8 time complexities that every programmer should know](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)
