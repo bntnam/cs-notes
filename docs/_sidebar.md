@@ -3,6 +3,7 @@
 
 - Searching Algorithms
   - [Linear Search](js/searchingAlgorithms/linearSearch/linearSearch.md)
+  - [Binary Search](js/searchingAlgorithms/binarySearch/binarySearch.md)
 
 - Sorting Algorithms
   - [Bubble Sort](js/sortingAlgorithms/bubbleSort/bubbleSort.md)
