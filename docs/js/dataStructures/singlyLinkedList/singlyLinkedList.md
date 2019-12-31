@@ -5,7 +5,7 @@
 ![](singlyLinkedList.png)
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://codeburst.io/linked-lists-in-javascript-es6-code-part-1-6dd349c3dcc3">codeburst.io</a></p>
 
-#### Recap
+#### Summary
 
 - Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
 - Arrays contain a built in index whereas Linked Lists do not.

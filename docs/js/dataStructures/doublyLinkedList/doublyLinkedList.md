@@ -5,7 +5,7 @@
 ![](doublyLinkedList.png)
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.geeksforgeeks.org/doubly-linked-list/">geeksforgeeks.org</a></p>
 
-#### Recap
+#### Summary
 
 #### Implementation
 
