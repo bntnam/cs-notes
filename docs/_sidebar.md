@@ -14,3 +14,4 @@
   - [Singly Linked List](js/dataStructures/singlyLinkedList/singlyLinkedList.md)
   - [Doubly Linked List](js/dataStructures/doublyLinkedList/doublyLinkedList.md)
   - [Stack](js/dataStructures/stack/stack.md)
+  - [Queue](js/dataStructures/queue/queue.md)
