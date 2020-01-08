@@ -15,3 +15,4 @@
   - [Doubly Linked List](js/dataStructures/doublyLinkedList/doublyLinkedList.md)
   - [Stack](js/dataStructures/stack/stack.md)
   - [Queue](js/dataStructures/queue/queue.md)
+  - [Binary Search Tree](js/dataStructures/binarySearchTree/binarySearchTree.md)
