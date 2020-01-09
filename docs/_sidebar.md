@@ -19,3 +19,4 @@
 
 - Leet Code Problems & Solutions
   - [Reverse String](js/leetCode/reverseString/reverseString.md)
+  - [Fizz Buzz](js/leetCode/fizzBuzz/fizzBuzz.md)
