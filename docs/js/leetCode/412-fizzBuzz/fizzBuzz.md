@@ -37,7 +37,7 @@ function fizzBuzz(n) {
     .fill(0)
     .map(
       (ele, i) =>
-        (++i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || '' + i
+        (++i % 3 === 0 ? "Fizz" : "") + (i % 5 === 0 ? "Buzz" : "") || "" + i
     );
 }
 ```
@@ -49,11 +49,11 @@ var fizzBuzz = function(n) {
   var results = [];
   for (var i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      results.push('FizzBuzz');
+      results.push("FizzBuzz");
     } else if (i % 3 === 0) {
-      results.push('Fizz');
+      results.push("Fizz");
     } else if (i % 5 === 0) {
-      results.push('Buzz');
+      results.push("Buzz");
     } else {
       results.push(i.toString());
     }
@@ -68,9 +68,9 @@ var fizzBuzz = function(n) {
 function fizzBuzz(n) {
   var results = [];
   for (var i = 1; i <= n; i++) {
-    var str = '';
-    i % 3 === 0 ? (str += 'Fizz') : null;
-    i % 5 === 0 ? (str += 'Buzz') : null;
+    var str = "";
+    i % 3 === 0 ? (str += "Fizz") : null;
+    i % 5 === 0 ? (str += "Buzz") : null;
     !str ? (str += i.toFixed()) : null;
     results.push(str);
   }

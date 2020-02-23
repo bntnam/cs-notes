@@ -18,5 +18,6 @@
   - [Binary Search Tree](js/dataStructures/binarySearchTree/binarySearchTree.md)
 
 - Leet Code Problems & Solutions
-  - [Reverse String](js/leetCode/reverseString/reverseString.md)
-  - [Fizz Buzz](js/leetCode/fizzBuzz/fizzBuzz.md)
+  - [Single Number](js/leetCode/136-singleNumber/singleNumber.md)
+  - [Reverse String](js/leetCode/344-reverseString/reverseString.md)
+  - [Fizz Buzz](js/leetCode/412-fizzBuzz/fizzBuzz.md)
