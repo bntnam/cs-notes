@@ -13,6 +13,7 @@
   - [Selection Sort](js/sortingAlgorithms/selectionSort/selectionSort.md)
   - [Insertion Sort](js/sortingAlgorithms/insertionSort/insertionSort.md)
   - [Merge Sort](js/sortingAlgorithms/mergeSort/mergeSort.md)
+  - [Quick Sort](js/sortingAlgorithms/quickSort/quickSort.md)
 
 - Data Structures
   - [Singly Linked List](js/dataStructures/singlyLinkedList/singlyLinkedList.md)

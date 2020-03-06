@@ -8,9 +8,9 @@
 
 #### Time Complexity
 
-|             |   Best    |  Average  |   Worst   |
-| ----------- | :-------: | :-------: | :-------: |
-| Bubble Sort | O(n logn) | O(n logn) | O(n logn) |
+|            |   Best    |  Average  |   Worst   |
+| ---------- | :-------: | :-------: | :-------: |
+| Merge Sort | O(n logn) | O(n logn) | O(n logn) |
 
 #### Implementation
 
