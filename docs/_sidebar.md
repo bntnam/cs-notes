@@ -1,6 +1,9 @@
 - Big O Notation
   - [Time Complexity](js/bigONotation/timeComplexity.md)
 
+- Recursion
+  - [Recursion](js/recursion/recursion.md)
+
 - Searching Algorithms
   - [Linear Search](js/searchingAlgorithms/linearSearch/linearSearch.md)
   - [Binary Search](js/searchingAlgorithms/binarySearch/binarySearch.md)

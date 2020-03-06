@@ -3,13 +3,14 @@
 > Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
 ![](bubble-sort.png)
+
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-3.php">w3resource</a></p>
 
 #### Time Complexity
 
-|                |       Best      |      Average     |       Worst      |
-|----------------|:---------------:|:----------------:|:----------------:|
-| Bubble Sort    |       O(n)      | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
+|             | Best |     Average      |      Worst       |
+| ----------- | :--: | :--------------: | :--------------: |
+| Bubble Sort | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
 
 #### Implementation
 

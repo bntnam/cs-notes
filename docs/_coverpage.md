@@ -4,5 +4,4 @@
 
 > Computer Science Notes
 
-[Github](https://github.com/bntnam/)
 [Getting Started](#computer-science-notes)

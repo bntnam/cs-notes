@@ -57,10 +57,10 @@ function reverseString(str) {
 ```javascript
 function reverseString(str) {
   var i = 0,
-      n = str.length,
-      middle = Math.floor(n / 2),
-      temp = null;
-  
+    n = str.length,
+    middle = Math.floor(n / 2),
+    temp = null;
+
   for (; i < middle; i++) {
     temp = str[i];
     str[i] = str[n - 1 - i];

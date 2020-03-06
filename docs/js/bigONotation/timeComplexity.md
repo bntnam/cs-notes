@@ -3,6 +3,7 @@
 ## Time Complexity Definition
 
 ![](bigOComplexityChart.jpeg)
+
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.bigocheatsheet.com/">Big-O Cheat Sheet</a></p>
 
 #### O(1) - Constant time
@@ -35,4 +36,4 @@
 
 ## References
 
-* [8 time complexities that every programmer should know](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)
+- [8 time complexities that every programmer should know](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)

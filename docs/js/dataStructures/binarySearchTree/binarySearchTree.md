@@ -5,13 +5,13 @@
 > Binary Tree, which is a tree, has a special condition that each node can have a maximum of two children.
 
 > Binary Search Tree is a node-based binary tree data structure which has the following properties:
->- Every node to the left of a parent node is always less than the parent.
->- Every node to the right of a parent node is always greater than the parent.
+>
+> - Every node to the left of a parent node is always less than the parent.
+> - Every node to the right of a parent node is always greater than the parent.
 
 ![](binarySearchTree.png)
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://en.wikipedia.org/wiki/Binary_search_tree">Wikipedia</a></p>
-
 
 #### Implementation
 

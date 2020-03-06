@@ -3,13 +3,14 @@
 > Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
 
 ![](merge-sort.png)
+
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.wikiwand.com/en/Merge_sort">Wikiwand</a></p>
 
 #### Time Complexity
 
-|                |       Best      |      Average     |       Worst      |
-|----------------|:---------------:|:----------------:|:----------------:|
-| Bubble Sort    |     O(n logn)   |     O(n logn)    |      O(n logn)   |
+|             |   Best    |  Average  |   Worst   |
+| ----------- | :-------: | :-------: | :-------: |
+| Bubble Sort | O(n logn) | O(n logn) | O(n logn) |
 
 #### Implementation
 
