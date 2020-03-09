@@ -2,7 +2,7 @@
 
 > Selection sort is an algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
 
-![](selection-sort.png)
+<p align="center"><img src="js/sortingAlgorithms/selectionSort/selectionSort.png" width="500px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.w3resource.com/php-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-4.php">w3resource</a></p>
 

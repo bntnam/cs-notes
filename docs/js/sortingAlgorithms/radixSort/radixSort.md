@@ -2,7 +2,7 @@
 
 > Radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their individual digits.
 
-![](radix-sort.png)
+<p align="center"><img src="js/sortingAlgorithms/radixSort/radixSort.png" width="500px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.programiz.com/dsa/radix-sort">Programiz</a></p>
 

@@ -2,7 +2,7 @@
 
 > A queue is a FIFO (first-in-first-out) data structure, in which the first element is inserted from one end called the REAR (also called tail), and the removal of existing element takes place from the other end called as FRONT (also called head).
 
-![](queue.png)
+<p align="center"><img src="js/dataStructures/queue/queue.png" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Wikipedia</a></p>
 

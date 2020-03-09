@@ -2,7 +2,7 @@
 
 > A stack is a LIFO (last-in-first-out) data structure. The last element added to the stack will be the first element removed from the stack.
 
-![](stack.png)
+<p align="center"><img src="js/dataStructures/stack/stack.png" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.softwaretestinghelp.com/stack-in-cpp/">Software Testing Help</a></p>
 

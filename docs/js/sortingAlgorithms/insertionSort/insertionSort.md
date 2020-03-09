@@ -2,7 +2,7 @@
 
 > Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
 
-![](insertion-sort.png)
+<p align="center"><img src="js/sortingAlgorithms/insertionSort/insertionSort.png" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-6.php">w3resource</a></p>
 

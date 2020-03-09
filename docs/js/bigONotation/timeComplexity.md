@@ -2,7 +2,7 @@
 
 ## Time Complexity Definition
 
-![](bigOComplexityChart.jpeg)
+<p align="center"><img src="js/bigONotation/bigOComplexityChart.jpeg" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.bigocheatsheet.com/">Big-O Cheat Sheet</a></p>
 

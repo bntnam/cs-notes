@@ -4,7 +4,7 @@
 >
 > The base case returns a value without making any subsequent recursive calls.
 
-![](recursion.png)
+<p align="center"><img src="js/recursion/recursion.png" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.geeksforgeeks.org/recursive-functions/">GeeksforGeeks</a></p>
 

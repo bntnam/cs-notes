@@ -2,7 +2,7 @@
 
 > Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
 
-![](merge-sort.png)
+<p align="center"><img src="js/sortingAlgorithms/mergeSort/mergeSort.png" width="500px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.wikiwand.com/en/Merge_sort">Wikiwand</a></p>
 

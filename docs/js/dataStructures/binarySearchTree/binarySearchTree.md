@@ -9,7 +9,7 @@
 > - Every node to the left of a parent node is always less than the parent.
 > - Every node to the right of a parent node is always greater than the parent.
 
-![](binarySearchTree.png)
+<p align="center"><img src="js/dataStructures/binarySearchTree/binarySearchTree.png" width="500px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://en.wikipedia.org/wiki/Binary_search_tree">Wikipedia</a></p>
 

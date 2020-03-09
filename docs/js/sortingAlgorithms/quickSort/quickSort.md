@@ -2,7 +2,7 @@
 
 > Quick Sort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
-![](quick-sort.png)
+<p align="center"><img src="js/sortingAlgorithms/quickSort/quickSort.png" width="600px" /></p>
 
 <p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.edureka.co/blog/quick-sort-in-cpp">edureka</a></p>
 
