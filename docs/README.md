@@ -13,9 +13,10 @@
 The website consists of:
 
 - [Big O Notation](js/bigONotation/timeComplexity)
-- [Data Structures](js/dataStructures/singlyLinkedList/singlyLinkedList)
+- [Recursion](js/recursion/recursion)
 - [Searching Algorithms](js/searchingAlgorithms/linearSearch/linearSearch)
 - [Sorting Algorithms](js/sortingAlgorithms/bubbleSort/bubbleSort)
+- [Data Structures](js/dataStructures/singlyLinkedList/singlyLinkedList)
 - [LeetCode Solutions](js/leetCode/136-singleNumber/singleNumber)
 
 ## Contribution

@@ -18,7 +18,7 @@
 function selectionSort(arr) {
   var swap = (arr, idx1, idx2) =>
     ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
-  
+
   for (var i = 0; i < arr.length; i++) {
     var lowest = i;
     for (var j = i + 1; j < arr.length; j++) {
@@ -26,7 +26,7 @@ function selectionSort(arr) {
         lowest = j;
       }
     }
-    if ( i !== lowest ) swap(arr, i, lowest);
+    if (i !== lowest) swap(arr, i, lowest);
   }
   return arr;
 }
