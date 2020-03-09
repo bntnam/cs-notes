@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.bntnam.com/cs-notes/">
-    <img src="./_media/note.png" alt="note image" style="width: 200px;" />
+    <img src="./_media/note.png" alt="note image" width="200px" />
   </a>
 </p>
 
