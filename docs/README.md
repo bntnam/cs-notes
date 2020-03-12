@@ -17,7 +17,6 @@ The website consists of:
 - [Searching Algorithms](js/searchingAlgorithms/linearSearch/linearSearch)
 - [Sorting Algorithms](js/sortingAlgorithms/bubbleSort/bubbleSort)
 - [Data Structures](js/dataStructures/singlyLinkedList/singlyLinkedList)
-- [LeetCode Solutions](js/leetCode/136-singleNumber/singleNumber)
 
 ## Contribution
 
