@@ -22,3 +22,4 @@
   - [Stack](js/dataStructures/stack/stack.md)
   - [Queue](js/dataStructures/queue/queue.md)
   - [Binary Search Tree](js/dataStructures/binarySearchTree/binarySearchTree.md)
+  - [Binary Heap](js/dataStructures/binaryHeap/binaryHeap.md)
