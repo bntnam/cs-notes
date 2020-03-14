@@ -23,3 +23,4 @@
   - [Queue](js/dataStructures/queue/queue.md)
   - [Binary Search Tree](js/dataStructures/binarySearchTree/binarySearchTree.md)
   - [Binary Heap](js/dataStructures/binaryHeap/binaryHeap.md)
+  - [Priority Queue](js/dataStructures/priorityQueue/priorityQueue.md)

@@ -1,19 +1,22 @@
-# Binary Heap
+# Priority Queue
 
-> A Heap is a special Tree-based data structure in which the tree is a complete binary tree.
+> Priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it.
 
-> In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children.
+<p align="center"><img src="js/dataStructures/priorityQueue/priorityQueue.png" width="600px" /></p>
 
-> In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
-
-<p align="center"><img src="js/dataStructures/binaryHeap/binaryHeap.png" width="600px" /></p>
-
-<p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.geeksforgeeks.org/heap-data-structure/">GeeksforGeeks</a></p>
+<p style="color: #888888; text-align: center; margin-top: -20px;">Source: <a href="https://www.programiz.com/dsa/priority-queue">Programiz</a></p>
 
 #### Implementation
 
 ```javascript
-class MaxBinaryHeap {
+class Node {
+  constructor(val, priority) {
+    this.val = val;
+    this.priority = priority;
+  }
+}
+
+class PriorityQueue {
   constructor() {
     this.values = [];
   }
@@ -24,15 +27,16 @@ class MaxBinaryHeap {
     while (index > 0) {
       var parentIndex = Math.floor((index - 1) / 2);
       var parent = this.values[parentIndex];
-      if (element <= parent) break;
+      if (element.priority >= parent.priority) break;
       this.values[parentIndex] = element;
       this.values[index] = parent;
       index = parentIndex;
     }
   }
 
-  insert(element) {
-    this.values.push(element);
+  enqueue(val, priority) {
+    var newNode = new Node(val, priority);
+    this.values.push(newNode);
     this.bubbleUp();
   }
 
@@ -47,15 +51,15 @@ class MaxBinaryHeap {
       var swap = null;
       if (leftChildIndex < length) {
         leftChild = this.values[leftChildIndex];
-        if (leftChild > element) {
+        if (leftChild.priority < element.priority) {
           swap = leftChildIndex;
         }
       }
       if (rightChildIndex < length) {
         rightChild = this.values[rightChildIndex];
         if (
-          (swap === null && rightChild > element) ||
-          (swap !== null && rightChild > leftChild)
+          (swap === null && rightChild.priority < element.priority) ||
+          (swap !== null && rightChild.priority < leftChild.priority)
         ) {
           swap = rightChildIndex;
         }
@@ -68,14 +72,14 @@ class MaxBinaryHeap {
     }
   }
 
-  extractMax() {
-    var max = this.values[0];
+  dequeue() {
+    var min = this.values[0];
     var end = this.values.pop();
     if (this.values.length > 0) {
       this.values[0] = end;
       this.sinkDown();
     }
-    return max;
+    return min;
   }
 }
 ```
