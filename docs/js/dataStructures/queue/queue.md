@@ -29,7 +29,7 @@ class Queue {
   }
 
   enqueue(value) {
-    var newNode = new Node(value);
+    let newNode = new Node(value);
     if (!this.first) {
       this.first = newNode;
       this.last = newNode;
@@ -42,7 +42,7 @@ class Queue {
 
   dequeue() {
     if (!this.first) return null;
-    var temp = this.first;
+    let temp = this.first;
     if (this.size === 1) {
       this.last = null;
     }

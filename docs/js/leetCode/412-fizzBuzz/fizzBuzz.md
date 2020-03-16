@@ -45,9 +45,9 @@ function fizzBuzz(n) {
 #### 2.
 
 ```javascript
-var fizzBuzz = function(n) {
-  var results = [];
-  for (var i = 1; i <= n; i++) {
+let fizzBuzz = function(n) {
+  let results = [];
+  for (let i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       results.push("FizzBuzz");
     } else if (i % 3 === 0) {
@@ -66,9 +66,9 @@ var fizzBuzz = function(n) {
 
 ```javascript
 function fizzBuzz(n) {
-  var results = [];
-  for (var i = 1; i <= n; i++) {
-    var str = "";
+  let results = [];
+  for (let i = 1; i <= n; i++) {
+    let str = "";
     i % 3 === 0 ? (str += "Fizz") : null;
     i % 5 === 0 ? (str += "Buzz") : null;
     !str ? (str += i.toFixed()) : null;

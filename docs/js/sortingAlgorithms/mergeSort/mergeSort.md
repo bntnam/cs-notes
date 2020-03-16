@@ -16,9 +16,9 @@
 
 ```javascript
 function merge(arr1, arr2) {
-  var results = [];
-  var i = 0;
-  var j = 0;
+  let results = [];
+  let i = 0;
+  let j = 0;
   while (i < arr1.length && j < arr2.length) {
     if (arr2[j] > arr1[i]) {
       results.push(arr1[i]);
@@ -44,9 +44,9 @@ function merge(arr1, arr2) {
 
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
-  var mid = Math.floor(arr.length / 2);
-  var left = mergeSort(arr.slice(0, mid));
-  var right = mergeSort(arr.slice(mid));
+  let mid = Math.floor(arr.length / 2);
+  let left = mergeSort(arr.slice(0, mid));
+  let right = mergeSort(arr.slice(mid));
   return merge(left, right);
 }
 ```

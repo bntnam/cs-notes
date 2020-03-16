@@ -8,19 +8,19 @@ function digitCount(num) {
 }
 
 function mostDigits(nums) {
-  var maxDigits = 0;
-  for (var i = 0; i < nums.length; i++) {
+  let maxDigits = 0;
+  for (let i = 0; i < nums.length; i++) {
     maxDigits = Math.max(maxDigits, digitCount(nums[i]));
   }
   return maxDigits;
 }
 
 function radixSort(nums) {
-  var maxDigitCount = mostDigits(nums);
-  for (var i = 0; i < maxDigitCount; i++) {
-    var digitBuckets = Array.from({ length: 10 }, () => []);
-    for (var j = 0; j < nums.length; j++) {
-      var digit = getDigit(nums[j], i);
+  let maxDigitCount = mostDigits(nums);
+  for (let i = 0; i < maxDigitCount; i++) {
+    let digitBuckets = Array.from({ length: 10 }, () => []);
+    for (let j = 0; j < nums.length; j++) {
+      let digit = getDigit(nums[j], i);
       digitBuckets[digit].push(nums[j]);
     }
     nums = [].concat(...digitBuckets);

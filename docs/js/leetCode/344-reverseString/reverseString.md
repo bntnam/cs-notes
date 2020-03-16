@@ -37,7 +37,7 @@ function reverseString(str) {
 ```javascript
 function reverseString(str) {
   reversed = [];
-  for (var i = str.length - 1; i >= 0; i--) {
+  for (let i = str.length - 1; i >= 0; i--) {
     reversed.push(str[i]);
   }
   return reversed;
@@ -56,7 +56,7 @@ function reverseString(str) {
 
 ```javascript
 function reverseString(str) {
-  var i = 0,
+  let i = 0,
     n = str.length,
     middle = Math.floor(n / 2),
     temp = null;

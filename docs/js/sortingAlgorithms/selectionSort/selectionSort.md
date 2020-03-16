@@ -16,12 +16,12 @@
 
 ```javascript
 function selectionSort(arr) {
-  var swap = (arr, idx1, idx2) =>
+  let swap = (arr, idx1, idx2) =>
     ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
 
-  for (var i = 0; i < arr.length; i++) {
-    var lowest = i;
-    for (var j = i + 1; j < arr.length; j++) {
+  for (let i = 0; i < arr.length; i++) {
+    let lowest = i;
+    for (let j = i + 1; j < arr.length; j++) {
       if (arr[lowest] > arr[j]) {
         lowest = j;
       }

@@ -22,11 +22,11 @@ class PriorityQueue {
   }
 
   bubbleUp() {
-    var index = this.values.length - 1;
-    var element = this.values[index];
+    let index = this.values.length - 1;
+    let element = this.values[index];
     while (index > 0) {
-      var parentIndex = Math.floor((index - 1) / 2);
-      var parent = this.values[parentIndex];
+      let parentIndex = Math.floor((index - 1) / 2);
+      let parent = this.values[parentIndex];
       if (element.priority >= parent.priority) break;
       this.values[parentIndex] = element;
       this.values[index] = parent;
@@ -35,20 +35,20 @@ class PriorityQueue {
   }
 
   enqueue(val, priority) {
-    var newNode = new Node(val, priority);
+    let newNode = new Node(val, priority);
     this.values.push(newNode);
     this.bubbleUp();
   }
 
   sinkDown() {
-    var index = 0;
-    var length = this.values.length;
-    var element = this.values[0];
+    let index = 0;
+    let length = this.values.length;
+    let element = this.values[0];
     while (true) {
-      var leftChildIndex = 2 * index + 1;
-      var rightChildIndex = 2 * index + 2;
-      var leftChild, rightChild;
-      var swap = null;
+      let leftChildIndex = 2 * index + 1;
+      let rightChildIndex = 2 * index + 2;
+      let leftChild, rightChild;
+      let swap = null;
       if (leftChildIndex < length) {
         leftChild = this.values[leftChildIndex];
         if (leftChild.priority < element.priority) {
@@ -73,8 +73,8 @@ class PriorityQueue {
   }
 
   dequeue() {
-    var min = this.values[0];
-    var end = this.values.pop();
+    let min = this.values[0];
+    let end = this.values.pop();
     if (this.values.length > 0) {
       this.values[0] = end;
       this.sinkDown();
