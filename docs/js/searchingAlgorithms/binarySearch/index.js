@@ -10,4 +10,4 @@ function binarySearch(arr, elem) {
   return arr[middle] === elem ? middle : -1;
 }
 
-binarySearch([2, 5, 8, 12, 16, 23, 38, 56, 72, 91], 23);
+module.exports = binarySearch;

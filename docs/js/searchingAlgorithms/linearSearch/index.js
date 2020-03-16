@@ -5,4 +5,4 @@ function linearSearch(arr, val) {
   return -1;
 }
 
-linearSearch([3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48], 15);
+module.exports = linearSearch;
