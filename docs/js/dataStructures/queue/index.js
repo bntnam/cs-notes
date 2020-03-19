@@ -40,5 +40,3 @@ let queue = new Queue();
 queue.enqueue(99);
 queue.enqueue(100);
 queue.enqueue(101);
-
-console.log(queue);

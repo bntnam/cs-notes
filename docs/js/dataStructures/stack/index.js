@@ -41,5 +41,3 @@ let stack = new Stack();
 stack.push(99);
 stack.push(100);
 stack.push(101);
-
-console.log(stack);

@@ -136,5 +136,3 @@ list.push(99);
 list.push(100);
 list.push(101);
 list.push(102);
-
-console.log(list);

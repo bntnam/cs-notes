@@ -143,5 +143,3 @@ list.push("HELLO");
 list.push("HOW");
 list.push("ARE");
 list.push("YOU?");
-
-console.log(list);

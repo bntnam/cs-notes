@@ -1,14 +1,18 @@
 - Big O Notation
+
   - [Time Complexity](js/bigONotation/timeComplexity.md)
 
 - Recursion
+
   - [Recursion](js/recursion/recursion.md)
 
 - Searching Algorithms
+
   - [Linear Search](js/searchingAlgorithms/linearSearch/linearSearch.md)
   - [Binary Search](js/searchingAlgorithms/binarySearch/binarySearch.md)
 
 - Sorting Algorithms
+
   - [Bubble Sort](js/sortingAlgorithms/bubbleSort/bubbleSort.md)
   - [Selection Sort](js/sortingAlgorithms/selectionSort/selectionSort.md)
   - [Insertion Sort](js/sortingAlgorithms/insertionSort/insertionSort.md)
@@ -25,3 +29,4 @@
   - [Binary Heap](js/dataStructures/binaryHeap/binaryHeap.md)
   - [Priority Queue](js/dataStructures/priorityQueue/priorityQueue.md)
   - [Hash Table](js/dataStructures/hashTable/hashTable.md)
+  - [Graph](js/dataStructures/graph/graph.md)
