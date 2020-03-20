@@ -30,3 +30,6 @@
   - [Priority Queue](js/dataStructures/priorityQueue/priorityQueue.md)
   - [Hash Table](js/dataStructures/hashTable/hashTable.md)
   - [Graph](js/dataStructures/graph/graph.md)
+
+- Dijkstra's Algorithm
+  - [Dijkstra's Algorithm](js/dijkstraAlgorithm/dijkstraAlgorithm.md)
