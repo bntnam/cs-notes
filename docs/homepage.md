@@ -12,6 +12,7 @@ The website consists of:
 - [Sorting Algorithms](js/sortingAlgorithms/bubbleSort/bubbleSort)
 - [Data Structures](js/dataStructures/singlyLinkedList/singlyLinkedList)
 - [Dijkstra's Algorithm](js/dijkstraAlgorithm/dijkstraAlgorithm.md)
+- [Dynamic Programming](js/dynamicProgramming/dynamicProgramming.md)
 
 ## Contribution
 

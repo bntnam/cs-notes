@@ -21,6 +21,7 @@
   - [Radix Sort](js/sortingAlgorithms/radixSort/radixSort.md)
 
 - Data Structures
+
   - [Singly Linked List](js/dataStructures/singlyLinkedList/singlyLinkedList.md)
   - [Doubly Linked List](js/dataStructures/doublyLinkedList/doublyLinkedList.md)
   - [Stack](js/dataStructures/stack/stack.md)
@@ -32,4 +33,8 @@
   - [Graph](js/dataStructures/graph/graph.md)
 
 - Dijkstra's Algorithm
+
   - [Dijkstra's Algorithm](js/dijkstraAlgorithm/dijkstraAlgorithm.md)
+
+- Dynamic Programming
+  - [Dynamic Programming](js/dynamicProgramming/dynamicProgramming.md)
