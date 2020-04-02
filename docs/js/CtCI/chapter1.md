@@ -53,3 +53,30 @@ function checkPermutation(str1, str2) {
   return sortedStr1 === sortedStr2;
 }
 ```
+
+## 1.3. URLify
+
+> Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters, and that you are given the "true" length of the string.
+
+#### Example:
+
+```
+Input: "Mr John Smith    ", 13
+Output: "Mr%20John%20Smith"
+```
+
+#### Solution:
+
+- O(n)
+
+```javascript
+function urlify(str) {
+  let strArr = str.trim().split("");
+  for (let i in strArr) {
+    if (strArr[i] === " ") {
+      strArr[i] = "%20";
+    }
+  }
+  return strArr.join("");
+}
+```
