@@ -61,7 +61,7 @@ function checkPermutation(str1, str2) {
 #### Example:
 
 ```
-Input: "Mr John Smith    ", 13
+Input: "Mr John Smith    "
 Output: "Mr%20John%20Smith"
 ```
 
@@ -78,5 +78,47 @@ function urlify(str) {
     }
   }
   return strArr.join("");
+}
+```
+
+## 1.4. Palindrome Permutation
+
+> Given a string, write a function to check if it is a permutation of a palin- drome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters.The palindrome does not need to be limited to just dictionary words.
+
+#### Example:
+
+```
+Input: "Tact Coa"
+Output: true
+```
+
+#### Solution:
+
+- O(n)
+
+```javascript
+function palindromePermutation(str) {
+  str = str.toLowerCase();
+  let data = {};
+  for (let i in str) {
+    if (str[i] === " ") continue;
+    if (data[str[i]] === undefined) data[str[i]] = 1;
+    else delete data[str[i]];
+  }
+  return Object.keys(data).length <= 1;
+}
+```
+
+```javascript
+function palindromePermutation(str) {
+  str = str.toLowerCase();
+  let set = new Set();
+  for (let char of str) {
+    if (char !== " ") {
+      if (set.has(char)) set.delete(char);
+      else set.add(char);
+    }
+  }
+  return set.size <= 1;
 }
 ```
