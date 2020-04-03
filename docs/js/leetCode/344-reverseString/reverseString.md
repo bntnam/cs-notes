@@ -28,34 +28,6 @@ Output: ["h","a","n","n","a","H"]
 
 ```javascript
 function reverseString(str) {
-  return str.reverse();
-}
-```
-
-#### 2.
-
-```javascript
-function reverseString(str) {
-  reversed = [];
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversed.push(str[i]);
-  }
-  return reversed;
-}
-```
-
-#### 3.
-
-```javascript
-function reverseString(str) {
-  return str.map((ele, index) => str[str.length - 1 - index]);
-}
-```
-
-#### 4.
-
-```javascript
-function reverseString(str) {
   let i = 0,
     n = str.length,
     middle = Math.floor(n / 2),
@@ -67,5 +39,33 @@ function reverseString(str) {
     str[n - 1 - i] = temp;
   }
   return str;
+}
+```
+
+#### 2.
+
+```javascript
+function reverseString(str) {
+  return str.reverse();
+}
+```
+
+#### 3.
+
+```javascript
+function reverseString(str) {
+  reversed = [];
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed.push(str[i]);
+  }
+  return reversed;
+}
+```
+
+#### 4.
+
+```javascript
+function reverseString(str) {
+  return str.map((ele, index) => str[str.length - 1 - index]);
 }
 ```

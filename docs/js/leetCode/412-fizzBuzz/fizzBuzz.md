@@ -32,19 +32,6 @@ Output: [
 #### 1.
 
 ```javascript
-function fizzBuzz(n) {
-  return Array(n)
-    .fill(0)
-    .map(
-      (ele, i) =>
-        (++i % 3 === 0 ? "Fizz" : "") + (i % 5 === 0 ? "Buzz" : "") || "" + i
-    );
-}
-```
-
-#### 2.
-
-```javascript
 let fizzBuzz = function(n) {
   let results = [];
   for (let i = 1; i <= n; i++) {
@@ -62,18 +49,15 @@ let fizzBuzz = function(n) {
 };
 ```
 
-#### 3.
+#### 2.
 
 ```javascript
 function fizzBuzz(n) {
-  let results = [];
-  for (let i = 1; i <= n; i++) {
-    let str = "";
-    i % 3 === 0 ? (str += "Fizz") : null;
-    i % 5 === 0 ? (str += "Buzz") : null;
-    !str ? (str += i.toFixed()) : null;
-    results.push(str);
-  }
-  return results;
+  return Array(n)
+    .fill(0)
+    .map(
+      (ele, i) =>
+        (++i % 3 === 0 ? "Fizz" : "") + (i % 5 === 0 ? "Buzz" : "") || "" + i
+    );
 }
 ```

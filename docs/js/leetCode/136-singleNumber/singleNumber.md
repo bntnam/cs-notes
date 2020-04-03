@@ -26,14 +26,6 @@ Output: 4
 
 ```javascript
 function singleNumber(nums) {
-  return nums.reduce((prev, curr) => prev ^ curr, 0);
-}
-```
-
-#### 2.
-
-```javascript
-function singleNumber(nums) {
   let data = {};
   nums.forEach(num => {
     if (data[num] === undefined) {
@@ -46,14 +38,10 @@ function singleNumber(nums) {
 }
 ```
 
-#### 3.
+#### 2.
 
 ```javascript
 function singleNumber(nums) {
-  let result = nums[0];
-  for (let i = 1; i < nums.length; i++) {
-    result = result ^ nums[i];
-  }
-  return result;
+  return nums.reduce((prev, curr) => prev ^ curr, 0);
 }
 ```

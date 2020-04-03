@@ -1,4 +1,4 @@
 - Leet Code Problems & Solutions
-  - [Reverse String](js/leetCode/344-reverseString/reverseString.md)
   - [Single Number](js/leetCode/136-singleNumber/singleNumber.md)
+  - [Reverse String](js/leetCode/344-reverseString/reverseString.md)
   - [Fizz Buzz](js/leetCode/412-fizzBuzz/fizzBuzz.md)
