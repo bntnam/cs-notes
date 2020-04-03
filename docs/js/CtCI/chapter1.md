@@ -122,3 +122,40 @@ function palindromePermutation(str) {
   return set.size <= 1;
 }
 ```
+
+## 1.5. One Away
+
+> There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+
+#### Example:
+
+```
+Input: "code", "codee"
+Output: true
+```
+
+#### Solution:
+
+- O(n)
+
+```javascript
+function oneAway(str1, str2) {
+  let len1 = str1.length;
+  let len2 = str2.length;
+  let i,
+    j,
+    isInserted = len1 < len2,
+    isDeleted = len1 > len2,
+    isEdited = false;
+  if (Math.abs(len1 - len2) > 1) return false;
+  for (i = 0, j = 0; i < len1 && j < len2; i++, j++) {
+    if (str1[i] !== str2[j]) {
+      if (isEdited) return false;
+      else if (isInserted) j--;
+      else if (isDeleted) i--;
+      isEdited = true;
+    }
+  }
+  return true;
+}
+```
