@@ -107,7 +107,7 @@ class BinarySearchTree {
     return data;
   }
 
-  DFSPostOrder() {
+  DFSInOrder() {
     let data = [];
     function traverse(node) {
       if (node.left) traverse(node.left);
