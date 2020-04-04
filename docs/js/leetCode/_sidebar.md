@@ -2,5 +2,6 @@
   - Easy level
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
+    - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
     - [Reverse String](js/leetCode/344-reverseString.md)
     - [Fizz Buzz](js/leetCode/412-fizzBuzz.md)
