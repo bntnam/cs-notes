@@ -22,7 +22,10 @@ Output: 4
 
 ### Solution:
 
-#### 1.
+#### 1. Hash Table
+
+- Time complexity: O(n)
+- Space complexity: O(n)
 
 ```javascript
 function singleNumber(nums) {
@@ -38,7 +41,10 @@ function singleNumber(nums) {
 }
 ```
 
-#### 2.
+#### 2. Bit Manipulation
+
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ```javascript
 function singleNumber(nums) {

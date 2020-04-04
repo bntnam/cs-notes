@@ -24,7 +24,10 @@ Output: ["h","a","n","n","a","H"]
 
 ### Solution:
 
-#### 1.
+#### 1. Two Pointers
+
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ```javascript
 function reverseString(str) {
@@ -32,7 +35,6 @@ function reverseString(str) {
     n = str.length,
     middle = Math.floor(n / 2),
     temp = null;
-
   for (; i < middle; i++) {
     temp = str[i];
     str[i] = str[n - 1 - i];
@@ -42,30 +44,13 @@ function reverseString(str) {
 }
 ```
 
-#### 2.
+#### 2. Array Method
+
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ```javascript
 function reverseString(str) {
   return str.reverse();
-}
-```
-
-#### 3.
-
-```javascript
-function reverseString(str) {
-  reversed = [];
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversed.push(str[i]);
-  }
-  return reversed;
-}
-```
-
-#### 4.
-
-```javascript
-function reverseString(str) {
-  return str.map((ele, index) => str[str.length - 1 - index]);
 }
 ```

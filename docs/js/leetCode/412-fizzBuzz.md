@@ -29,7 +29,10 @@ Output: [
 
 ### Solution:
 
-#### 1.
+#### 1. Naive Approach
+
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ```javascript
 let fizzBuzz = function(n) {
@@ -49,7 +52,10 @@ let fizzBuzz = function(n) {
 };
 ```
 
-#### 2.
+#### 2. String Concatenation
+
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ```javascript
 function fizzBuzz(n) {
