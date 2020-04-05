@@ -2,6 +2,7 @@
   - Easy level
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
+    - [Majority Element](js/leetCode/169-majorityElement.md)
     - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
     - [Delete Node in a Linked List](js/leetCode/237-deleteNodeInALinkedList.md)
     - [Move Zeroes](js/leetCode/283-moveZeroes.md)
