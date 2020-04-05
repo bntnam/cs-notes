@@ -25,7 +25,7 @@
 #### 1.
 
 ```
-Input: [3, 9, 20, null, null, 15, 7]
+Input: [3,9,20,null,null,15,7]
 Output: 3
 ```
 
