@@ -6,6 +6,20 @@
 >
 > Note: A leaf is a node with no children.
 
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+```
+
 ### Example:
 
 #### 1.

@@ -6,6 +6,13 @@
 >
 > You may assume all the characters consist of printable ascii characters.
 
+```
+/**
+ * @param {character[]} s
+ * @return {void} Do not return anything, modify s in-place instead.
+ */
+```
+
 ### Example:
 
 #### 1.

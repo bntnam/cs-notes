@@ -3,5 +3,6 @@
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
     - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
+    - [Delete Node in a Linked List](js/leetCode/237-deleteNodeInALinkedList.md)
     - [Reverse String](js/leetCode/344-reverseString.md)
     - [Fizz Buzz](js/leetCode/412-fizzBuzz.md)
