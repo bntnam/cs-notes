@@ -3,6 +3,7 @@
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Convert Sorted Array to Binary Search Tree](js/leetCode/108-convertSortedArrayToBinarySearchTree.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
+    - [Majority Element](js/leetCode/169-majorityElement.md)
     - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
     - [Delete Node in a Linked List](js/leetCode/237-deleteNodeInALinkedList.md)
     - [Valid Anagram](js/leetCode/242-validAnagram.md)
