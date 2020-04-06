@@ -1,9 +1,11 @@
 - [Leet Code Problems & Solutions](/leetCode)
   - Easy level
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
+    - [Convert Sorted Array to Binary Search Tree](js/leetCode/108-convertSortedArrayToBinarySearchTree.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
     - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
     - [Delete Node in a Linked List](js/leetCode/237-deleteNodeInALinkedList.md)
+    - [Valid Anagram](js/leetCode/242-validAnagram.md)
     - [Move Zeroes](js/leetCode/283-moveZeroes.md)
     - [Reverse String](js/leetCode/344-reverseString.md)
     - [Fizz Buzz](js/leetCode/412-fizzBuzz.md)
