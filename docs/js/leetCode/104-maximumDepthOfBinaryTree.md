@@ -33,6 +33,9 @@ Output: 3
 
 #### 1. Recursive
 
+- Time complexity: O(n)
+- Space compexity: O(n)
+
 ```javascript
 function maxDepth(root) {
   if (!root) return 0;
@@ -41,6 +44,9 @@ function maxDepth(root) {
 ```
 
 #### 2. Non-recursive
+
+- Time complexity: O(n)
+- Space complexity: O(n)
 
 ```javascript
 function maxDepth(root) {
