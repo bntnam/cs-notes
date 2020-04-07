@@ -2,6 +2,7 @@
   - Easy level
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Convert Sorted Array to Binary Search Tree](js/leetCode/108-convertSortedArrayToBinarySearchTree.md)
+    - [Best Time to Buy and Sell Stock II](js/leetCode/122-bestTimeToBuyAndSellStockII.md)
     - [Single Number](js/leetCode/136-singleNumber.md)
     - [Majority Element](js/leetCode/169-majorityElement.md)
     - [Reverse Linked List](js/leetCode/206-reverseLinkedList.md)
