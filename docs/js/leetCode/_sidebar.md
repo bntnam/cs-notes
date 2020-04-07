@@ -1,5 +1,6 @@
 - [Leet Code Problems & Solutions](/leetCode)
   - Easy level
+    - [Roman to Integer](js/leetCode/13-romanToInteger.md)
     - [Maximum Depth of Binary Tree](js/leetCode/104-maximumDepthOfBinaryTree.md)
     - [Convert Sorted Array to Binary Search Tree](js/leetCode/108-convertSortedArrayToBinarySearchTree.md)
     - [Best Time to Buy and Sell Stock II](js/leetCode/122-bestTimeToBuyAndSellStockII.md)
