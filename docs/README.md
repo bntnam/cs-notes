@@ -12,13 +12,13 @@
 
 The website consists of:
 
-- [Big O Notation](js/bigONotation/timeComplexity)
-- [Recursion](js/recursion/recursion)
-- [Searching Algorithms](js/searchingAlgorithms/linearSearch/linearSearch)
-- [Sorting Algorithms](js/sortingAlgorithms/bubbleSort/bubbleSort)
-- [Data Structures](js/dataStructures/singlyLinkedList/singlyLinkedList)
-- [Dijkstra's Algorithm](js/dijkstraAlgorithm/dijkstraAlgorithm.md)
-- [Dynamic Programming](js/dynamicProgramming/dynamicProgramming.md)
+- [Big O Notation](https://bntnam.com/cs-notes/#/js/bigONotation/timeComplexity)
+- [Recursion](https://bntnam.com/cs-notes/#/js/recursion/recursion)
+- [Searching Algorithms](https://bntnam.com/cs-notes/#/js/searchingAlgorithms/linearSearch/linearSearch)
+- [Sorting Algorithms](https://bntnam.com/cs-notes/#/js/sortingAlgorithms/bubbleSort/bubbleSort)
+- [Data Structures](https://bntnam.com/cs-notes/#/js/dataStructures/singlyLinkedList/singlyLinkedList)
+- [Dijkstra's Algorithm](https://bntnam.com/cs-notes/#/js/dijkstraAlgorithm/dijkstraAlgorithm)
+- [Dynamic Programming](https://bntnam.com/cs-notes/#/js/dynamicProgramming/dynamicProgramming)
 
 ## Contribution
 
