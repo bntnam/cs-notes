@@ -70,6 +70,7 @@ class BinarySearchTree {
   DFSPreOrder() {
     let data = [];
     function traverse(node) {
+      if (!node) return;
       data.push(node.value);
       if (node.left) traverse(node.left);
       if (node.right) traverse(node.right);
@@ -81,6 +82,7 @@ class BinarySearchTree {
   DFSPostOrder() {
     let data = [];
     function traverse(node) {
+      if (!node) return;
       if (node.left) traverse(node.left);
       if (node.right) traverse(node.right);
       data.push(node.value);
@@ -92,6 +94,7 @@ class BinarySearchTree {
   DFSInOrder() {
     let data = [];
     function traverse(node) {
+      if (!node) return;
       if (node.left) traverse(node.left);
       data.push(node.value);
       if (node.right) traverse(node.right);
